@@ -1,0 +1,33 @@
+
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<div class="homepage-content">
+	{{ .Content }}
+</div>
+<div class="homepage-content">
+
+		<h3>Research</h3>
+		{{ range (where .Pages "Section" "research").GroupByParam "Status" }}
+		<h4>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h4>
+		<ul>
+		{{ range .Pages.ByDate }}
+		<li>
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
+			<div>
+			{{ if .Params.Coauthors }}
+			<strong>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </strong>
+			{{ range $index,$coauthor := .Params.Coauthors }}
+				{{ if gt $index 0 }}, {{ end }}
+				<a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+			{{ end }}
+			{{ end }}
+			</div>
+			<div>{{ .Description }}</div>
+
+		</li>
+		{{ end }}
+		{{ end }}
+</div>
+{{ partial "footer.html" . }}
