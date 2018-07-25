@@ -1,0 +1,10 @@
+
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+<div class="homepage-content">
+	{{ range $index,$coauthor := .Site.Taxonomies.Coauthors }}
+		{{ . }}
+	{{ end }}
+</div>
+{{ partial "footer.html" . }}

@@ -8,25 +8,24 @@
 </div>
 <div class="homepage-content">
 
-		<h3>Research</h3>
+		<h4>Research</h4>
 		{{ range (where .Pages "Section" "research").GroupByParam "Status" }}
-		<h4>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h4>
-		<ul>
+		<h5>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h5>
 		{{ range .Pages.ByDate }}
-		<li>
+		<div>
 			<a href="{{ .Permalink }}">{{ .Title }}</a>
 			<div>
 			{{ if .Params.Coauthors }}
 			<strong>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </strong>
 			{{ range $index,$coauthor := .Params.Coauthors }}
-				{{ if gt $index 0 }}, {{ end }}
-				<a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
+				{{ if gt $index 0 }}, {{ end }}{{ . }}
 			{{ end }}
 			{{ end }}
 			</div>
 			<div>{{ .Description }}</div>
 
-		</li>
+		</div>
 		{{ end }}
 		{{ end }}
 </div>

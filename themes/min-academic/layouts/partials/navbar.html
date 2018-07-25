@@ -1,10 +1,11 @@
-<div class="navbar navbar-light bg-light">
-	<a class="navbar-brand" href="{{ .Site.BaseURL }}">
+<div class="navbar navbar-expand-lg sticky-top navbar-light bg-white justify-content-between">
+	<a class="nav-brand mr-4 h5 align-bottom" href="{{ .Site.BaseURL }}">
 		{{ .Site.Title }}
 	</a>
-	<ul class="navbar-nav">
-		<li class="nav-item">
-			<a class="nav-link" href="/about">About</a>
-		</li>
-	</ul>
+	<div class="collapse navbar-collapse">
+	<div class="navbar-nav ">
+		<a class="nav-item nav-link" href="/research/">Research</a>
+		<a class="nav-item nav-link" href="/post/">Blog</a>
+	</div>
+	</div>
 </div>
