@@ -14,3 +14,18 @@
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
+.h5,
+.nav-item,
+.nav-brand {
+	font-family: 'Roboto Slab';	
+	color: #000000;
+}
+h4 {
+	font-family: 'Roboto Slab';
+}
+h5 {
+	font-family: 'Roboto Slab';
+}
+body {
+	font-family: 'Roboto';
+}
