@@ -6,25 +6,27 @@
 	{{ if eq .Section "research" }}
 		<h4>Research</h4>
 		{{ range (where .Pages "Section" "research").GroupByParam "Status" }}
-		<h5>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h5>
+		<br /><h5>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h5>
 		{{ range .Pages.ByDate }}
 		<div>
 			<a href="{{ .Permalink }}">{{ .Title }}</a>
+			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <i>{{ .Params.Journal }}</i>{{ end }}
 			<div>
 			{{ if .Params.Coauthors }}
 			<strong>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </strong>
 			{{ range $index,$coauthor := .Params.Coauthors }}
-				{{ if gt $index 0 }}, {{ end }}
 				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
-				{{ . }}
+				{{ if gt $index 0 }}, {{ end }}{{ . }}
 			{{ end }}
 			{{ end }}
 			</div>
-			<div>{{ .Description }}</div>
+			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
+			<div class="mb-3">{{ .Description }}</div>
 
 		</div>
 		{{ end }}
 		{{ end }}
+
 	{{ else if eq .Section "post" }}
 	<h4>Posts</h4>
 	{{ range (where .Pages "Section" "post").ByDate }}
