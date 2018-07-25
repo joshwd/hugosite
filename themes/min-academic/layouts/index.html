@@ -13,7 +13,8 @@
 		<br /><h5>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h5>
 		{{ range .Pages.ByDate }}
 		<div>
-			<a href="{{ .Permalink }}">{{ .Title }}</a>
+			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
+			{{ .Title }}
 			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <i>{{ .Params.Journal }}</i>{{ end }}
 			<div>
 			{{ if .Params.Coauthors }}
