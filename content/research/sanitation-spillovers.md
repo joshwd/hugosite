@@ -1,5 +1,5 @@
 ---
-title: "Sanitation Spillovers"
+title: "Spillovers without social interactions in urban sanitation"
 date: 2018-10-10T13:38:48-05:00
 Description: ""
 Tags: []
