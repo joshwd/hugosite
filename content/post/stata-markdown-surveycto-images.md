@@ -9,8 +9,8 @@ Categories: []
 
 This is a short guide for programmatically generating documents,
 with embedded images, from SurveyCTO data. It uses the excellent
-![markstat](https://data.princeton.edu/stata/markdown), which in
-turn relies on ![pandoc](https://pandoc.org/) to create PDFs or Word Documents.
+[markstat](https://data.princeton.edu/stata/markdown), which in
+turn relies on [pandoc](https://pandoc.org/) to create PDFs or Word Documents.
 
 Markstat relies on executing a *.stmd* file which mixes
 Markdown documentation with indented Stata code. 
