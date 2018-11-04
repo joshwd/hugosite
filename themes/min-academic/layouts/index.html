@@ -4,7 +4,15 @@
 {{ partial "navbar.html" . }}
 
 <div class="homepage-content">
-	{{ .Content }}
+	<div class="row">
+		<div class="col-8">
+			{{ .Content }}
+		</div>
+		<div class="col">
+			<img src="{{ .Site.profile_photo }}" class="img-fluid">
+		</div>
+	</div>
+
 </div>
 <div class="homepage-content">
 
