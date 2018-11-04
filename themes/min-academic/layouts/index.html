@@ -5,11 +5,11 @@
 
 <div class="homepage-content">
 	<div class="row">
+		<div class="col-3">
+			<img src="{{ .Site.Params.profile_photo }}" class="img-fluid">
+		</div>
 		<div class="col-8">
 			{{ .Content }}
-		</div>
-		<div class="col">
-			<img src="{{ .Site.profile_photo }}" class="img-fluid">
 		</div>
 	</div>
 
@@ -33,6 +33,7 @@
 			{{ end }}
 			{{ end }}
 			</div>
+			<div><i>{{ .Params.Statusdetails }}</i></div>
 			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
 			<div class="mb-3">{{ .Description }}</div>
 
