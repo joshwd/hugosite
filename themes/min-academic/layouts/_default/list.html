@@ -17,10 +17,12 @@
 			<strong>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </strong>
 			{{ range $index,$coauthor := .Params.Coauthors }}
 				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
-				{{ if gt $index 0 }}, {{ end }}{{ . }}
+				{{ if gt $index 0 }}&#8226; {{ end }}{{ . }}
 			{{ end }}
 			{{ end }}
 			</div>
+			<div><i>{{ .Params.Statusdetails }}</i></div>
+
 			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
 			<div class="mb-3">{{ .Description }}</div>
 
@@ -30,7 +32,7 @@
 
 	{{ else if eq .Section "post" }}
 	<h4>Posts</h4>
-	{{ range (where .Pages "Section" "post").ByDate }}
+	{{ range (where (where ".Params.Draft" "!=" true) .Pages "Section" "post").ByDate }}
 	<div>
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
 	</div>
