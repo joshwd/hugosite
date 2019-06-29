@@ -1,5 +1,5 @@
 ---
-title: "Information, credit, and inputs: the impacts and mechanisms of a program to raise smallholder productivity"
+title: "Can smallholder extension transform African agriculture?"
 date: 2018-07-24T16:18:56-05:00
 Description: ""
 Tags: [Development]
