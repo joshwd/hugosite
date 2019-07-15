@@ -5,6 +5,7 @@ Description: ""
 Tags: []
 Coauthors: ["Djavad Salehi-Isfahani","Bryce Wilson Stucki"]
 Status: "Published"
+Statuscode: 1
 Link: "https://www.tandfonline.com/doi/abs/10.1080/1540496X.2015.1080512"
 Journal: "Emerging Markets Finance and Trade"
 Year: "2015"

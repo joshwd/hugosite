@@ -18,25 +18,26 @@
 <div class="homepage-content">
 
 		<h4>Research</h4>
-		{{ range (where .Pages "Section" "research").GroupByParam "Status" }}
-		<br /><h5>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h5>
+		{{ range (where .Pages "Section" "research").GroupByParam "Statuscode" }}
+		<br /><h5>{{ if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
 		{{ range .Pages.ByDate }}
 		<div>
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
-			{{ .Title }}
-			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <i>{{ .Params.Journal }}</i>{{ end }}
+			<strong>{{ .Title }}</strong>
+			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
 			<div>
 			{{ if .Params.Coauthors }}
-			<strong>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </strong>
+			<em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em>
 			{{ range $index,$coauthor := .Params.Coauthors }}
 				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
 				{{ if gt $index 0 }}&#8226; {{ end }}{{ . -}}
 			{{ end }}
 			{{ end }}
 			</div>
-			<div><i>{{ .Params.Statusdetails }}</i></div>
+			<div><em>{{ .Params.Statusdetails }}</em></div>
 			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
-			<div class="mb-3">{{ .Description }}</div>
+			{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}
+			{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}
 
 		</div>
 		{{ end }}
