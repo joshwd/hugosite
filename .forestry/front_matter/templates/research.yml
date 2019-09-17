@@ -1,0 +1,37 @@
+---
+label: Research
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: Description
+  label: Description
+- type: list
+  name: Tags
+  label: Tags
+- type: list
+  name: Coauthors
+  label: Coauthors
+- type: text
+  name: Status
+  label: Status
+- type: number
+  name: Statuscode
+  label: Statuscode
+- type: text
+  name: Filename
+  label: Filename
+- type: text
+  name: Statusdetails
+  label: Statusdetails
+- type: text
+  name: Link
+  label: Link
+- type: text
+  name: Linkdetails
+  label: Linkdetails
