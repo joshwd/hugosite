@@ -36,7 +36,7 @@
 			</div>
 			<div><em>{{ .Params.Statusdetails }}</em></div>
 			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
-			{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}
+			{{- if .Params.Link -}}{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}{{ end }}
 			{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}
 
 		</div>
