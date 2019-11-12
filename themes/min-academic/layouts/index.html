@@ -18,7 +18,7 @@
 <div class="homepage-content">
 
 		<h4>Research</h4>
-		{{ range (where .Pages "Section" "research").GroupByParam "Statuscode" }}
+		{{ range (where .Pages "Section" "research").GroupBy "Statuscode" }} 
 		<br /><h5>{{ if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
 		{{ range .Pages.ByDate }}
 		<div>
@@ -33,6 +33,7 @@
 			{{ range $index,$coauthor := .Params.Coauthors }}
 				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
 				{{ if gt $index 0 }}&#8226; {{ end }}{{ . -}}
+				{{ if .Site.Data.$coauthor.Name }}{{ .Site.Data.$coauthor.Name }}{{ end }}
 			{{ end }}
 			{{ end }}
 			</div>
@@ -41,7 +42,7 @@
 			{{- if .Params.Link -}}{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}{{ end }}
 			{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}
 
-		</div>
+			</div>
 		</div>
 		{{ end }}
 		{{ end }}
