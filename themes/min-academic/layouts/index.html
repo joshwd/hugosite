@@ -32,8 +32,8 @@
 <em>with: </em>
 			{{ range $index,$coauthor := .Params.Coauthors }}
 				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
-				{{ if gt $index 0 }}&#8226; {{ end }}{{ . -}}
-				{{ if .Site.Data.$coauthor.Name }}{{ .Site.Data.$coauthor.Name }}{{ end }}
+				{{ if gt $index 0 }}&#8226; {{ end }}
+				{{ if .Site.Data.$coauthor.Name }}{{ .Site.Data.$coauthor.Name }}{{ else }}{{ . -}}{{ end }}
 			{{ end }}
 			{{ end }}
 			</div>
