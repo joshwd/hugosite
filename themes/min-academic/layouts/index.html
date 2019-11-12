@@ -25,9 +25,11 @@
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
 			<strong>{{ .Title }}</strong>
 			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
-			<div class="pl-1">
+			<div class="pl-3">
+			<div>
 			{{ if .Params.Coauthors }}
-			<em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em>
+			<!-- <em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em> -->
+<em>with: </em>
 			{{ range $index,$coauthor := .Params.Coauthors }}
 				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
 				{{ if gt $index 0 }}&#8226; {{ end }}{{ . -}}
@@ -39,6 +41,7 @@
 			{{- if .Params.Link -}}{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}{{ end }}
 			{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}
 
+		</div>
 		</div>
 		{{ end }}
 		{{ end }}
