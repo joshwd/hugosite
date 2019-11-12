@@ -25,7 +25,7 @@
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
 			<strong>{{ .Title }}</strong>
 			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
-			<div>
+			<div class="pl-1">
 			{{ if .Params.Coauthors }}
 			<em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em>
 			{{ range $index,$coauthor := .Params.Coauthors }}
