@@ -18,7 +18,8 @@
 <div class="homepage-content">
 
 		<h4>Research</h4>
-		{{ range (where .Pages "Section" "research").GroupByParam "Statuscode" }} 
+		{{ range where .Pages "Section" "research" }} 
+		{{ range .Pages.GroupByParam "Statuscode" }}
 		<br /><h5>{{ if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
 		{{ range .Pages.ByDate }}
 		<div>
@@ -30,10 +31,11 @@
 			{{ if .Params.Coauthors }}
 			<!-- <em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em> -->
 <em>with: </em>
-			{{ range $index,$coauthor := .Params.Coauthors }}
-				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
+			{{ range $index,$coauthorcode := .Params.coauthorcodes }}
 				{{ if gt $index 0 }}&#8226; {{ end }}
-				{{ if .Site.Data.coauthor.Name }}{{ .Site.Data.coauthor.Name }}{{ else }}{{ . -}}{{ end }}
+				{{ if (index $.Site.Data.coauthors $coauthorcode).website }}<a href="{{ (index $.Site.Data.coauthors $coauthorcode).website }}" target="_blank">{{ (index $.Site.Data.coauthors $coauthorcode).name }}</a>
+				{{ else }}{{ (index $.Site.Data.coauthors $coauthorcode).name }}
+				{{ end }}
 			{{ end }}
 			{{ end }}
 			</div>
@@ -44,6 +46,7 @@
 
 			</div>
 		</div>
+		{{ end }}
 		{{ end }}
 		{{ end }}
 
