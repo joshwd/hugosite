@@ -30,14 +30,6 @@
 		{{ end }}
 		{{ end }}
 
-	{{ else if eq .Section "post" }}
-	<h4>Posts</h4>
-	{{ range (where (where ".Params.Draft" "!=" true) .Pages "Section" "post").ByDate }}
-	<div>
-		<a href="{{ .Permalink }}">{{ .Title }}</a>
-	</div>
-	{{ end }}
 	{{ end }}
 </div>
 {{ partial "footer.html" . }}
-

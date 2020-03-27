@@ -7,7 +7,7 @@ Coauthors: ["Agnieszka Postepska","Leopold Sarr"]
 coauthorcodes: ["AgnieszkaPostepska","LeopoldSarr"]
 Status: "WP"
 Statuscode: 2
-Statusdetails: "Submitted"
+Statusdetails: "Revise & Resubmit, World Development"
 Link: ""
 Journal: ""
 Year: ""
