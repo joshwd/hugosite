@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 awareness and impacts among Senegalese groundnut farmers"
 date: 2020-06-05T15:47:13-05:00
-draft: true
+draft: false
 ---
 
 ***Date: June 5, 2020***
