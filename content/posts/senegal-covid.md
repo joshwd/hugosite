@@ -7,7 +7,7 @@ draft: false
 ***Date: June 5, 2020***
 
 This post is intended to share rapid results from an ongoing phone survey in
-Senegal. The research, part of a [larger project on contract structure and technology adoption by groundut farmers](https://www.atai-research.org/project/credit-uncertainty-and-monitoring-for-technology-adoption-the-case-of-aflasafe-in-senegal/), is joint with Tanguy Bernard, Laura Schechter, and Ouambi Yameogo.
+Senegal. The research, part of a [larger project on contract structure and technology adoption by groundut farmers](https://www.atai-research.org/project/credit-uncertainty-and-monitoring-for-technology-adoption-the-case-of-aflasafe-in-senegal/), is joint with [Tanguy Bernard](https://sites.google.com/view/tanguybernard/home), [Laura Schechter](https://www.aae.wisc.edu/lschechter/), and [Ouambi Yameogo](https://www.iita.org/iita-staff/yameogo-ouambi/). The research is supported financially by the CGIAR Research Program on Policies, Institutions, and Markets and the Agricultural Technology Adoption Initiative (ATAI).
 
 Due to the ongoing COVID-19 crisis, we decided to adapt a planned survey to measure
 some impacts of the crisis on groundnut farmers in Senegal. Our sample is constructed
