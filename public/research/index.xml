@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Joshua W. Deutschmann</title>
-    <link>/</link>
-    <description>Recent content in Home on Joshua W. Deutschmann</description>
+    <title>Research on Joshua W. Deutschmann</title>
+    <link>/research/</link>
+    <description>Recent content in Research on Joshua W. Deutschmann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jul 2018 14:40:47 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 20:40:03 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -72,15 +72,6 @@
       
       <guid>/research/1af-project/</guid>
       <description>Agricultural productivity in Sub-Saharan Africa lags far behind all other regions of the world. A long list of policy experiments has yielded more evidence on what fails than on what works. We analyze a randomized control trial of a rare scaled-up success story: One Acre Fund’s small farmer program. Much like anti-poverty &amp;ldquo;graduation&amp;rdquo; interventions, the program aims to relax multiple constraints to productivity simultaneously. We show that participation causes statistically and economically significant increases in output, yields, and profits.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Tue, 24 Jul 2018 14:40:47 -0500</pubDate>
-      
-      <guid>/about/</guid>
-      <description>About This will be an about page.</description>
     </item>
     
   </channel>
