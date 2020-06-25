@@ -15,7 +15,7 @@ using membership lists from several cooperative organizations in the Kaolack reg
 with approximately 1/3 of the sample drawn from past project participants. The sample
 consists of approximately 1000 farmers in total.
 Farmers were surveyed over the phone, with enumerators working from home. The
-phone survey was conducted in partnership WITH [CRDES](http://crdes.sn/), with special
+phone survey was conducted in partnership with [CRDES](http://crdes.sn/), with special
 thanks to Dr. Samba Mbaye, Mariama Konte, and Medoune Sall for their help with the project.
 
 ### Summary of findings
