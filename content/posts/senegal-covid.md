@@ -11,7 +11,7 @@ Senegal. The research, part of a [larger project on contract structure and techn
 
 Due to the ongoing COVID-19 crisis, we decided to adapt a planned survey to measure
 some impacts of the crisis on groundnut farmers in Senegal. Our sample is constructed
-using membership lists from several cooperative organizations in the Kaolack region (the ``groundnut basin'' of Senegal),
+using membership lists from several cooperative organizations in the Kaolack region (the "groundnut basin" of Senegal),
 with approximately 1/3 of the sample drawn from past project participants. The sample
 consists of approximately 1000 farmers in total.
 Farmers were surveyed over the phone, with enumerators working from home. The
