@@ -29,3 +29,7 @@ h5 {
 body {
 	font-family: 'Roboto';
 }
+
+.content-card img {
+    max-width: 100%;
+}
