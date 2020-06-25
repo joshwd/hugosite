@@ -30,6 +30,9 @@ Awareness of COVID-19 is high (100% among respondents so far). More than 87% rep
 Radio and television are by far the most common reported sources of information among survey respondents, followed
 by social networks (real and virtual).
 
+
+{{< img src="covid_info_sources.png" alt="COVID info sources" >}}
+
 ![covid_info_sources](/Figures/covid_info_sources.png)
 
 We asked respondents what they had heard about COVID-19. 
