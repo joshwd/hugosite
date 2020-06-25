@@ -31,7 +31,7 @@ Radio and television are by far the most common reported sources of information 
 by social networks (real and virtual).
 
 
-{{< img src="covid_info_sources.png" alt="COVID info sources" >}}
+{{< img src="/Figures/covid_info_sources.png" alt="COVID info sources" >}}
 
 ![covid_info_sources](/Figures/covid_info_sources.png)
 
