@@ -7,6 +7,7 @@ Coauthors: ["Emilia Tjernström"]
 coauthorcodes: ["EmiliaTjernstrom"]
 Status: "WP"
 Statuscode: 2
+Statusdetails: "Draft coming soon!"
 Link: ""
 Journal: ""
 Year: ""
