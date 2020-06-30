@@ -21,7 +21,7 @@
 		{{ range where .Pages "Section" "research" }} 
 		{{ range .Pages.GroupByParam "Statuscode" }}
 		<br /><h5>{{ if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
-		{{ range .Pages.ByDate }}
+		{{ range .Pages.ByDate.Reverse }}
 		<div>
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
 			<strong>{{ .Title }}</strong>
