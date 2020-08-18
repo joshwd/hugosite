@@ -7,7 +7,7 @@ Coauthors: ["Agnieszka Postepska","Leopold Sarr"]
 coauthorcodes: ["AgnieszkaPostepska","LeopoldSarr"]
 Status: "WP"
 Statuscode: 2
-Statusdetails: "Revised & Resubmitted, World Development"
+Statusdetails: "Conditionally accepted, World Development"
 Link: "/Papers/Senegal_Energy_WTP_20200630.pdf"
 Journal: ""
 Year: ""
