@@ -5,8 +5,8 @@ Description: ""
 Tags: []
 Coauthors: ["Tanguy Bernard","Ouambi Yameogo"]
 coauthorcodes: ["TanguyBernard","OuambiYameogo"]
-Status: "WP"
-Statuscode: 2
+Status: "JMP"
+Statuscode: 0
 Statusdetails: "Draft coming soon!"
 Link: ""
 Journal: ""
