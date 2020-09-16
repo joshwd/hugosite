@@ -42,13 +42,13 @@
 			<div><em>{{ .Params.Statusdetails }}</em></div>
 			{{ if eq .Params.Status "Published" }}
 				{{- if .Params.WPLink -}}
-					<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a>
+					<a href="{{ .Params.WPLink }}" target="_blank">Working Paper Link</a>
 				{{ else }}
 					<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>
 				{{ end }}
 			{{ end }}
 			{{- if .Params.Link -}}{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}{{ end }}
-			{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}
+			{{ if neq .Params.Status "Published" }}{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}{{ end }}
 
 			</div>
 		</div>
