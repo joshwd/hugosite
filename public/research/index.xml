@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Joshua W. Deutschmann</title>
+    <link>/research/</link>
+    <description>Recent content in Research on Joshua W. Deutschmann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2020 08:06:36 -0500</lastBuildDate>
+    
+	<atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contracting and quality upgrading: evidence from a pilot experiment in Senegal</title>
+      <link>/research/aflasafe-pilot/</link>
+      <pubDate>Sun, 28 Jun 2020 08:06:36 -0500</pubDate>
+      
+      <guid>/research/aflasafe-pilot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measurement error, validation data, and program evaluation</title>
+      <link>/research/1af-measurement/</link>
+      <pubDate>Fri, 27 Mar 2020 20:40:03 +0000</pubDate>
+      
+      <guid>/research/1af-measurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring willingness to pay for reliable electricity: evidence from Senegal</title>
+      <link>/research/senegal-electricity-wtp/</link>
+      <pubDate>Mon, 28 Oct 2019 08:06:36 -0500</pubDate>
+      
+      <guid>/research/senegal-electricity-wtp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spillovers without social interactions in urban sanitation</title>
+      <link>/research/sanitation-spillovers/</link>
+      <pubDate>Wed, 10 Oct 2018 13:38:48 -0500</pubDate>
+      
+      <guid>/research/sanitation-spillovers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using market mechanisms to increase the take-up of improved sanitation</title>
+      <link>/research/sanitation-policy/</link>
+      <pubDate>Wed, 25 Jul 2018 12:59:52 -0500</pubDate>
+      
+      <guid>/research/sanitation-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing complexity and consumer behavior: evidence from a lab experiment</title>
+      <link>/research/pricing-complexity/</link>
+      <pubDate>Wed, 25 Jul 2018 12:47:07 -0500</pubDate>
+      
+      <guid>/research/pricing-complexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The reform of energy subsidies in Iran: The role of cash transfers</title>
+      <link>/research/iran-subsidy-reform/</link>
+      <pubDate>Wed, 25 Jul 2018 12:33:21 -0500</pubDate>
+      
+      <guid>/research/iran-subsidy-reform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can smallholder extension transform African agriculture?</title>
+      <link>/research/1af-project/</link>
+      <pubDate>Tue, 24 Jul 2018 16:18:56 -0500</pubDate>
+      
+      <guid>/research/1af-project/</guid>
+      <description>Agricultural productivity in Sub-Saharan Africa lags far behind all other regions of the world. A long list of policy experiments has yielded more evidence on what fails than on what works. We analyze a randomized control trial of a rare scaled-up success story: One Acre Fund’s small farmer program. Much like anti-poverty &amp;ldquo;graduation&amp;rdquo; interventions, the program aims to relax multiple constraints to productivity simultaneously. We show that participation causes statistically and economically significant increases in output, yields, and profits.</description>
+    </item>
+    
+  </channel>
+</rss>
