@@ -18,7 +18,7 @@
 <div class="homepage-content">
 
 		<h4>Research</h4>
-		{{ range where .Pages "Section" "research" }} 
+		{{ range where .Pages "Section" "research" }}
 		{{ range .Pages.GroupByParam "Statuscode" }}
 		<br /><h5>{{ if eq .Key 0 }} Job Market Paper{{ else if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
 		{{ range .Pages.ByDate.Reverse }}
@@ -40,7 +40,13 @@
 			{{ end }}
 			</div>
 			<div><em>{{ .Params.Statusdetails }}</em></div>
-			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
+			{{ if eq .Params.Status "Published" }}
+				{{- if .Params.WPLink -}}
+					<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a>
+				{{ else }}
+					<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>
+				{{ end }}
+			{{ end }}
 			{{- if .Params.Link -}}{{ if eq .Params.Status "WP" }}<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>{{ end }}{{ end }}
 			{{- if .Content -}}<div class="mb-3 small">{{- .Content -}}</div>{{ else }}<br />{{ end }}
 
