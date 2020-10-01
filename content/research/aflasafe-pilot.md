@@ -7,8 +7,7 @@ Coauthors: ["Tanguy Bernard","Ouambi Yameogo"]
 coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "JMP"
 Statuscode: 0
-Statusdetails: "Draft coming soon!"
-Link: ""
+Link: "/Papers/Deutschmann_JMP.pdf"
 Journal: ""
 Year: ""
 ---
