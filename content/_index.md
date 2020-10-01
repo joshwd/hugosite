@@ -9,4 +9,4 @@ Previously, I worked as the Data Manager for the [Dakar Urban Sanitation project
 
 I am on the job market for the 2020-2021 season and will be available for (virtual) interviews before, during, and after the ASSA and EEA meetings.
 
-Click [here](https://jwdeutschmann.com/Deutschmann_CV.pdf) to access my full CV.
+Click [here](https://jwdeutschmann.com/Deutschmann_CV.pdf) to download my full CV.
