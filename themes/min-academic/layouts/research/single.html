@@ -2,7 +2,26 @@
 
 {{ partial "navbar.html" . }}
 
-<h1>{{ .Title }}</h1>
+<div class="homepage-content">
+    {{ if eq .Key 0 }} <h3><i>Job Market Paper</i></h3> <br />
+    <h3>{{ .Title }}</h3>
+    <div class="pl-3">
+        <div>
+            {{ if .Params.Coauthors }}
+			<!-- <em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em> -->
+<em>with: </em>
+			{{ range $index,$coauthorcode := .Params.coauthorcodes }}
+				{{ if gt $index 0 }}&#8226; {{ end }}
+				{{ if (index $.Site.Data.coauthors $coauthorcode).website }}<a href="{{ (index $.Site.Data.coauthors $coauthorcode).website }}" target="_blank">{{ (index $.Site.Data.coauthors $coauthorcode).name }}</a>
+				{{ else }}{{ (index $.Site.Data.coauthors $coauthorcode).name }}
+				{{ end }}
+			{{ end }}
+			{{ end }}
+			</div>
+        </div>
+    </div>
+</div>
+
 
 {{ .Content }}
 
