@@ -3,7 +3,7 @@
 {{ partial "navbar.html" . }}
 
 <div class="homepage-content">
-    {{ if eq .Key 0 }} <h3><i>Job Market Paper</i></h3> <br />{{ end }}
+    {{ if eq .Params.Statuscode 0 }} <h3><i>Job Market Paper</i></h3> <br />{{ end }}
     <h3>{{ .Title }}</h3>
     <div class="pl-3">
         <div>
