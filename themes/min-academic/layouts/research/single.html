@@ -21,7 +21,7 @@
     </div>
     <br /><div><em>{{ .Params.Statusdetails }}</em></div>
 
-    <div class="mb-3 small">{{ .Content }}</div>
+    <div class="mb-3">{{ .Content }}</div>
     <br />
     {{- if eq .Params.Status "Published" -}}
         {{- if .Params.WPLink -}}
@@ -34,28 +34,28 @@
         {{ if eq .Params.Status "WP" }}
             <a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
         {{ else if eq .Params.Status "JMP" }}
-            <a href="{{ .Params.Link }}" target="_blank">Job Market Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
+            <a href="{{ .Params.Link }}" target="_blank">Click here to download the latest version of my job market paper</a> <i>{{ .Params.Linkdetails }}</i>
         {{ end }}
     {{ end }}
+    <br />
+    <div>
+        <object
+          data='{{ .Params.Link }}'
+          type="application/pdf"
+          width="100%"
+          height="800"
+        >
+    
+          <iframe
+            src='{{ .Params.Link }}'
+            width="100%"
+            height="800"
+          >
+          <p>It appears this browser does not support displaying an embedded PDF, but you can click the link above to download the paper.</p>
+          </iframe>
+    
+        </object>
+      </div>
 </div>
-
-<div>
-    <object
-      data='{{ .Params.Link }}'
-      type="application/pdf"
-      width="500"
-      height="678"
-    >
-
-      <iframe
-        src='{{ .Params.Link }}'
-        width="500"
-        height="678"
-      >
-      <p>This browser does not support PDF!</p>
-      </iframe>
-
-    </object>
-  </div>
 
 {{ partial "footer.html" . }}
