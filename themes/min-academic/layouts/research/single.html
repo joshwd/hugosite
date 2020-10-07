@@ -39,7 +39,23 @@
     {{ end }}
 </div>
 
-{{< embed-pdf url="{{ .Params.Link }}" >}}
+<div>
+    <object
+      data='{{ .Params.Link }}'
+      type="application/pdf"
+      width="500"
+      height="678"
+    >
 
+      <iframe
+        src='{{ .Params.Link }}'
+        width="500"
+        height="678"
+      >
+      <p>This browser does not support PDF!</p>
+      </iframe>
+
+    </object>
+  </div>
 
 {{ partial "footer.html" . }}
