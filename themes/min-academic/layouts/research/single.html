@@ -3,7 +3,7 @@
 {{ partial "navbar.html" . }}
 
 <div class="homepage-content">
-    {{ if eq .Params.Statuscode 0 }} <h4><i>Job Market Paper</i></h4> <br />{{ end }}
+    {{ if eq .Params.Statuscode 0 }} <h4><i>Job Market Paper:</i></h4>{{ end }}
     <h4>{{ .Title }}</h4>
     <div class="pl-3">
         <div>
@@ -19,7 +19,10 @@
 			{{ end }}
         </div>
     </div>
-    <div><em>{{ .Params.Statusdetails }}</em></div>
+    <br /><div><em>{{ .Params.Statusdetails }}</em></div>
+
+    <div class="mb-3 small">{{ .Content }}</div>
+    <br />
     {{- if eq .Params.Status "Published" -}}
         {{- if .Params.WPLink -}}
             <a href="{{ .Params.WPLink }}" target="_blank">Working Paper Link</a> <br />
@@ -34,8 +37,6 @@
             <a href="{{ .Params.Link }}" target="_blank">Job Market Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
         {{ end }}
     {{ end }}
-
-    <div class="mb-3 small">{{ .Content }}</div>
 </div>
 
 
