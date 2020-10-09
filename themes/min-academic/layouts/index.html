@@ -24,7 +24,11 @@
 		{{ range .Pages.ByDate.Reverse }}
 		<div>
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
-			<strong>{{ .Title }}</strong>
+			{{ if eq .Params.Postlink 1 }}
+				<a href="{{.Permalink}}"><strong>{{ .Title }}</strong></a>
+			{{ else }}
+				<strong>{{ .Title }}</strong>
+			{{ end }}
 			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
 			<div class="pl-3">
 			<div>

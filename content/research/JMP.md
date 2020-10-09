@@ -10,6 +10,7 @@ Statuscode: 0
 Link: "/Papers/Deutschmann_JMP.pdf"
 Journal: ""
 Year: ""
+Postlink: 1
 ---
 Linking producers to export markets can improve incomes and welfare, but accessing these markets requires meeting international quality standards.
 Contracts between producers and buyers may facilitate these improvements in quality by aligning incentives, alleviating constraints, and reducing uncertainty for producers.
