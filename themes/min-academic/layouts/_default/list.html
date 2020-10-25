@@ -5,28 +5,55 @@
 <div class="homepage-content">
 	{{ if eq .Section "research" }}
 		<h4>Research</h4>
-		{{ range (where .Pages "Section" "research").GroupByParam "Status" }}
-		<br /><h5>{{ if eq .Key "WIP" }}Work in Progress{{ else }}{{ .Key }}{{ end }}</h5>
-		{{ range .Pages.ByDate }}
+		{{ range where .Pages "Section" "research" }}
+		{{ range .Pages.GroupByParam "Statuscode" }}
+		<br /><h5>{{ if eq .Key 0 }} Job Market Paper{{ else if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
+		{{ range .Pages.ByDate.Reverse }}
 		<div>
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
-			{{ .Title }}
-			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <i>{{ .Params.Journal }}</i>{{ end }}
+			{{ if eq .Params.Postlink 1 }}
+				<a href="{{.Permalink}}"><strong>{{ .Title }}</strong></a>
+			{{ else }}
+				<strong>{{ .Title }}</strong>
+			{{ end }}
+			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
+			<div class="pl-3">
 			<div>
 			{{ if .Params.Coauthors }}
-			<strong>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </strong>
-			{{ range $index,$coauthor := .Params.Coauthors }}
-				<!-- <a href="{{ "/co-authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->
-				{{ if gt $index 0 }}&#8226; {{ end }}{{ . }}
+			<!-- <em>Co-author{{ if gt (len .Params.Coauthors) 1}}s{{ end }}: </em> -->
+<em>with: </em>
+			{{ range $index,$coauthorcode := .Params.coauthorcodes }}
+				{{ if gt $index 0 }}&#8226; {{ end }}
+				{{ if (index $.Site.Data.coauthors $coauthorcode).website }}<a href="{{ (index $.Site.Data.coauthors $coauthorcode).website }}" target="_blank">{{ (index $.Site.Data.coauthors $coauthorcode).name }}</a>
+				{{ else }}{{ (index $.Site.Data.coauthors $coauthorcode).name }}
+				{{ end }}
 			{{ end }}
 			{{ end }}
 			</div>
-			<div><i>{{ .Params.Statusdetails }}</i></div>
+			<div><em>{{ .Params.Statusdetails }}</em></div>
+			{{- if eq .Params.Status "Published" -}}
+				{{- if .Params.WPLink -}}
+					<a href="{{ .Params.WPLink }}" target="_blank">Working Paper Link</a> <br />
+				{{ else }}
+					<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>
+				{{ end }}
+			{{ end }}
+			{{- if .Params.Link -}}
+				{{ if eq .Params.Status "WP" }}
+					<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
+				{{ else if eq .Params.Status "JMP" }}
+					<a href="{{ .Params.Link }}" target="_blank">Job Market Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
+				{{ end }}
+			{{ end }}
+			{{- if .Content -}}
+				<div class="mb-3 small">{{- .Content -}}</div>
+			{{ else }}
+				<br />
+			{{ end }}
 
-			{{ if eq .Params.Status "Published" }}<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>{{ end }}
-			<div class="mb-3">{{ .Description }}</div>
-
+			</div>
 		</div>
+		{{ end }}
 		{{ end }}
 		{{ end }}
 
