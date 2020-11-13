@@ -8,6 +8,7 @@ coauthorcodes: ["AgnieszkaPostepska","LeopoldSarr"]
 Status: "Published"
 Statuscode: 1
 WPLink: "/Papers/Senegal_Energy_WTP_20200630.pdf"
+JournalLink: "https://www.sciencedirect.com/science/article/pii/S0305750X20303363"
 Journal: "World Development"
 Year: "Forthcoming"
 ---

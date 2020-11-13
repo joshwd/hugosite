@@ -45,10 +45,14 @@
 			</div>
 			<div><em>{{ .Params.Statusdetails }}</em></div>
 			{{- if eq .Params.Status "Published" -}}
+				{{- if .Params.JournalLink -}}
+				<a href="{{ .Params.JournalLink }}" target="_blank">Journal Link</a>
+					{{- if .Params.WPLink -}}
+					 | 
+					{{ end }}
+				{{ end }}
 				{{- if .Params.WPLink -}}
 					<a href="{{ .Params.WPLink }}" target="_blank">Working Paper Link</a> <br />
-				{{ else }}
-					<a href="{{ .Params.Link }}" target="_blank">Journal Link</a>
 				{{ end }}
 			{{ end }}
 			{{- if .Params.Link -}}
