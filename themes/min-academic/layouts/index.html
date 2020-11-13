@@ -46,7 +46,7 @@
 			<div><em>{{ .Params.Statusdetails }}</em></div>
 			{{- if eq .Params.Status "Published" -}}
 				{{- if .Params.JournalLink -}}
-				<a href="{{ .Params.JournalLink }}" target="_blank">Journal Link</a> <i>{{ .Params.Linkdetails }}</i>
+				<a href="{{ .Params.JournalLink }}" target="_blank">Journal Link</a> <i>{{ .Params.Linkdetails }}</i> <br />
 					{{- if .Params.WPLink -}}
 					&#8226; 
 					{{ end }}
