@@ -21,6 +21,10 @@
     </div>
     <br /><div><em>{{ .Params.Statusdetails }}</em></div>
 
+    {{- if .Params.Blogname -}}
+		Blog and press coverage: <a href="{{ .Params.Bloglink }}" target="_blank">{{ .Params.Blogname}}</a> <br />
+	{{ end }}
+
     <div class="mb-3"><p class="text-justify">{{ .Content }}</p></div>
     {{- if eq .Params.Status "Published" -}}
         {{- if .Params.WPLink -}}
