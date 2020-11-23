@@ -22,12 +22,12 @@
     <br /><div><em>{{ .Params.Statusdetails }}</em></div>
 
     {{ if .Params.Blogname }}
-        {{ range $index,$blogname := .Params.Blogname }}
-            {{ if gt $index 0 }}&#8226; {{ end }}
-            {{ $bloglink := index .Params.Bloglink $index }}
-            <b><i>Blog and press coverage:</i></b> <a href="{{ $bloglink }}" target="_blank">{{ $blogname }}</a> <br />
-        {{ end }}
-	{{ end }}
+				<b><i>Blog and press coverage:</i></b>
+				{{ range $index, $blogname := .Params.Blogname }}
+					{{ if gt $index 0 }}&#8226; {{ end }}
+					<a href="{{ index .Params.Bloglink $index }}" target="_blank">{{ $blogname }}</a> <br />
+				{{ end }}
+			{{ end }}
 
     <div class="mb-3"><p class="text-justify">{{ .Content }}</p></div>
     {{- if eq .Params.Status "Published" -}}
