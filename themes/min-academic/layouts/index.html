@@ -67,8 +67,12 @@
 			{{ else }}
 				<br />
 			{{ end }}
-			{{- if .Params.Blogname -}}
-				<i>Blog and press coverage:</i> <a href="{{ .Params.Bloglink }}" target="_blank">{{ .Params.Blogname}}</a> <br />
+			{{ if .Params.Blogname }}
+				{{ range $index,$blogname := .Params.Blogname }}
+					{{ if gt $index 0 }}&#8226; {{ end }}
+					{{ $bloglink := index .Params.Bloglink $index }}
+					<b><i>Blog and press coverage:</i></b> <a href="{{ $bloglink }}" target="_blank">{{ $blogname }}</a> <br />
+				{{ end }}
 			{{ end }}
 
 			</div>
