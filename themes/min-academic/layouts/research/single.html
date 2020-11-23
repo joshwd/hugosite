@@ -22,7 +22,10 @@
     <br /><div><em>{{ .Params.Statusdetails }}</em></div>
 
     {{- if .Params.Blogname -}}
-		<b><i>Blog and press coverage:</i></b> <a href="{{ .Params.Bloglink }}" target="_blank">{{ .Params.Blogname}}</a> <br />
+        {{ range $index,$blogname := .Params.Blogname }}
+            {{ if gt $index 0 }}&#8226; {{ end }}
+            <b><i>Blog and press coverage:</i></b> <a href="{{ .Params.Bloglink.$index }}" target="_blank">{{ $blogname }}</a> <br />
+        {{ end }}
 	{{ end }}
 
     <div class="mb-3"><p class="text-justify">{{ .Content }}</p></div>

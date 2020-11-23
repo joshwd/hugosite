@@ -11,8 +11,8 @@ Link: "/Papers/Deutschmann_JMP.pdf"
 Journal: ""
 Year: ""
 Postlink: 1
-Blogname: "World Bank Development Impact Blog"
-Bloglink: "https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality"
+Blogname: ["World Bank Development Impact Blog","NOVAFRICA Development Economics Job Market Talks"]
+Bloglink: ["https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality","https://novafrica.org/novafrica-development-economics-job-market-talks/"]
 ---
 Linking producers to export markets can improve incomes and welfare, but accessing these markets requires meeting international quality standards.
 Contracts between producers and buyers may facilitate meeting these standards by aligning incentives, alleviating constraints, and reducing uncertainty for producers.
