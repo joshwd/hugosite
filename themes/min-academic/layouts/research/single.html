@@ -24,7 +24,8 @@
     {{- if .Params.Blogname -}}
         {{ range $index,$blogname := .Params.Blogname }}
             {{ if gt $index 0 }}&#8226; {{ end }}
-            <b><i>Blog and press coverage:</i></b> <a href="{{ .Params.Bloglink.$index }}" target="_blank">{{ $blogname }}</a> <br />
+            {{ $bloglink := index .Params.Bloglink $index }}
+            <b><i>Blog and press coverage:</i></b> <a href="{{ $bloglink }}" target="_blank">{{ $blogname }}</a> <br />
         {{ end }}
 	{{ end }}
 
