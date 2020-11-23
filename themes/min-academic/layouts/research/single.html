@@ -21,6 +21,12 @@
     </div>
     <br /><div><em>{{ .Params.Statusdetails }}</em></div>
 
+    {{ if eq .Params.Statuscode 0 }}<b><i>Blog and press coverage:</i></b> 
+        <a href="https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality">World Bank Development Impact Blog</a>
+        &#8226; 
+        <a href="https://novafrica.org/novafrica-development-economics-job-market-talks/">NOVAFRICA Development Economics Job Market Talks Podcast</a>
+    {{ end }}
+
     {{ if .Params.Blogname }}
 				<b><i>Blog and press coverage:</i></b>
 				{{ range $index, $blogname := .Params.Blogname }}
