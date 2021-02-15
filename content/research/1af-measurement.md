@@ -5,8 +5,8 @@ Description: ""
 Tags: []
 Coauthors: ["Emilia Tjernström"]
 coauthorcodes: ["EmiliaTjernstrom"]
-Status: "WP"
-Statuscode: 2
+Status: "WIP"
+Statuscode: 3
 Statusdetails: "Draft coming soon!"
 Link: ""
 Journal: ""
