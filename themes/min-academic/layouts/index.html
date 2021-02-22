@@ -57,7 +57,7 @@
 			{{ end }}
 			{{- if .Params.Link -}}
 				{{ if eq .Params.Status "WP" }}
-					<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
+					<a href="{{ .Params.Link }}" target="_blank">Working Paper Link</a> <i>{{ .Params.Linkdetails }}</i><br />
 				{{ else if eq .Params.Status "JMP" }}
 					<a href="{{ .Params.Link }}" target="_blank">Job Market Paper Link</a> <i>{{ .Params.Linkdetails }}</i>
 				{{ end }}
