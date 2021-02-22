@@ -5,9 +5,9 @@ Description: ""
 Tags: []
 Coauthors: ["Molly Lipscomb","Laura Schechter","Siyao Jessica Zhu"]
 coauthorcodes: ["MollyLipscomb","LauraSchechter","SiyaoJessicaZhu"]
-Status: "WIP"
-Statuscode: 3
-Link: ""
+Status: "WP"
+Statuscode: 2
+Link: "Papers/WTP_paper_20210222.pdf"
 Journal: ""
 Year: ""
 ---
