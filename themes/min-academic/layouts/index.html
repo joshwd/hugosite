@@ -27,7 +27,7 @@
 			{{ if eq .Params.Postlink 1 }}
 				<a href="{{.Permalink}}"><strong>{{ .Title }}</strong></a>
 			{{ else }}
-				<strong>{{ .Title }}</strong> <em>({{ .Params.Statusdetails }})</em>
+				<strong>{{ .Title }}</strong> {{- if .Params.Statusdetails -}}<em>({{ .Params.Statusdetails }})</em>{{ end }}
 			{{ end }}
 			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
 			<div class="pl-3">
