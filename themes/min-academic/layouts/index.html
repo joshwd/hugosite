@@ -27,7 +27,7 @@
 			{{ if eq .Params.Postlink 1 }}
 				<a href="{{.Permalink}}"><strong>{{ .Title }}</strong></a>
 			{{ else }}
-				<strong>{{ .Title }}</strong> {{- if .Params.Statusdetails -}} <em>({{ .Params.Statusdetails }})</em>{{ end }}
+				<strong>{{ .Title }}</strong>
 			{{ end }}
 			{{ if eq .Params.Status "Published" }}({{ .Params.Year }}), <em>{{ .Params.Journal }}</em>{{ end }}
 			<div class="pl-3">
@@ -43,7 +43,7 @@
 			{{ end }}
 			{{ end }}
 			</div>
-			<div><em>{{ .Params.Statusdetails }}</em></div>
+			{{- if .Params.Statusdetails -}}<div><em>({{ .Params.Statusdetails }})</em></div>{{ end }}
 			{{- if eq .Params.Status "Published" -}}
 				{{- if .Params.JournalLink -}}
 				<a href="{{ .Params.JournalLink }}" target="_blank">Journal Link</a> <i>{{ .Params.Linkdetails }}</i> <br />
