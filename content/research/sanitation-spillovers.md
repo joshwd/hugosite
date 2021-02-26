@@ -8,6 +8,7 @@ coauthorcodes: ["MollyLipscomb","LauraSchechter","SiyaoJessicaZhu"]
 Status: "WP"
 Statuscode: 2
 Link: "Papers/WTP_paper_20210222.pdf"
+Linkdetails: "(February 2021)"
 Statusdetails: "under review"
 Journal: ""
 Year: ""
