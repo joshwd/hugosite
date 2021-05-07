@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-I am currently a PhD Candidate in Agricultural \& Applied Economics at the University of Wisconsin-Madison. 
+PhD in Agricultural \& Applied Economics at the University of Wisconsin-Madison. 
 I'm interested broadly in development economics, industrial organization, and applied econometrics.
 
 In July 2021 I will join the Development Innovation Lab at the University of Chicago as a Postdoctoral Scholar.
