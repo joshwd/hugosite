@@ -5,13 +5,15 @@ Description: ""
 Tags: []
 Coauthors: ["Tanguy Bernard","Ouambi Yameogo"]
 coauthorcodes: ["TanguyBernard","OuambiYameogo"]
-Status: "JMP"
-Statuscode: 0
+Status: "WP"
+Statuscode: 2
 Link: "/Papers/Deutschmann_JMP.pdf"
 Journal: ""
 Year: ""
 Postlink: 1
 ---
+**Blog and podcast coverage** : [World Bank Development Impact Blog](https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality) &#8226;  [NOVAFRICA Development Economics Job Market Talks Podcast](https://novafrica.org/novafrica-development-economics-job-market-talks/)
+
 Linking producers to export markets can improve incomes and welfare, but accessing these markets requires meeting international quality standards.
 Contracts between producers and buyers may facilitate meeting these standards by aligning incentives, alleviating constraints, and reducing uncertainty for producers.
 In partnership with two groundnut farming cooperatives in Senegal, we implement a new contracting arrangement that bundles price premium certainty with training and credit for the purchase of a new quality-improving technology. We conduct a randomized experiment to test whether this contract induces adoption of the technology and improvements in production quality. Producers randomly offered the contract are significantly more likely to purchase and use the technology. In areas where quality is otherwise low due to agro-climatic conditions, producers in the treatment group produce significantly higher-quality groundnuts. We also find that producers in the treatment group increase output sales to the cooperative on average. Importantly, the new contract is significantly more effective at increasing sales to the cooperative for producers who are more reciprocal and for whom signaling reliability is more valuable.
