@@ -8,6 +8,7 @@ coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "WP"
 Statuscode: 2
 Link: "/Papers/Deutschmann_JMP.pdf"
+Linkdetails: "(May 2021)"
 Journal: ""
 Year: ""
 Postlink: 0
