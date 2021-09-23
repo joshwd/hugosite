@@ -9,7 +9,7 @@ coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"
 Status: "WP"
 Statuscode: 2
 Statusdetails:
-Link: "Papers/sanitation_privatization_2021-09-15.pdf"
+Link: "Papers/sanitation_privatization_2021-09-23.pdf"
 Linkdetails: "(September 2021)"
 Journal: ""
 Year: ""
@@ -23,5 +23,5 @@ following privatization--on average an increase of 61.7%, or an increase of abou
 month. This is due to increased productivity of all trucks, not just those associated with the company
 managing the treatment centers. Household-level survey data shows that prices of legal sanitary dumping
 decreased by ten percent following privatization, and DHS data show that diarrhea rates among children
-under five decreased in Dakar relative to secondary cities in Dakar following privatization with no similar
+under five decreased in Dakar relative to secondary cities in Senegal following privatization with no similar
 effect on respiratory illness as a placebo.
