@@ -5,23 +5,11 @@ Description: ""
 Tags: []
 Status: "WP"
 Statuscode: 2
-Statusdetails:
-Link: "Papers/Deutschmann_Subsidies_20210914.pdf"
+Statusdetails: "(under review)"
+Link: "Papers/Deutschmann_Subsidies_20211130.pdf"
 Linkdetails: "(September 2021)"
 Journal: ""
 Year: ""
 ---
 
-New technologies may reduce costs for consumers, but costs to use these technologies
-may slow down adoption. In this paper, I study consumer adoption of an intermediation
-platform for sanitation services in Dakar, Senegal. The platform, run primarily as a
-public service, was designed to match households to sanitation service providers. I
-exploit spatial variation in exposure to short-term subsidies for the purchase of a septic
-pit desludging through the platform. Using a neighborhood-level panel constructed
-from platform administrative data, I show that neighborhoods exposed to short-term
-subsidies continue using the platform at significantly higher levels. Using additional data
-from a city-wide subsidy campaign, I show that past exposure to short-term subsidies
-increases future adoption at both subsidized and unsubsidized prices. I discuss possible
-mechanisms behind these results, and address the implications for social enterprises
-and governments seeking to operate intermediation platforms in decentralized service
-markets characterized by health externalities.
+Subsidies are common in development policy to encourage adoption of new technologies. Evidence suggests subsidies may either increase or decrease longer-run adoption. I study the dynamics of technology adoption in response to subsidies in an urban sanitation context. The technology, a matching platform for sanitation services in Dakar, Senegal, was designed to connect households with service providers. I exploit spatial variation in exposure to short-term subsidies for septic pit desludgings through the platform. Using a neighborhood-level panel constructed from platform administrative data, I show that neighborhoods exposed to short-term subsidies continue using the platform at significantly higher levels, but this effect declines over time. Following a subsequent city-wide subsidy campaign, increased adoption re-emerges in previously-subsidized neighborhoods. I find evidence suggesting within-neighborhood spillovers are a mechanism for increased long-run adoption: new users make up a substantial fraction of the increased adoption over time in previously-subsidized neighborhoods.
