@@ -9,7 +9,7 @@ coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"
 Status: "WP"
 Statuscode: 2
 Statusdetails: "Submitted"
-Link: "Papers/sanitation_privatization_2021-10-20.pdf"
+Link: "Papers/sanitation_privatization_20211215.pdf"
 Linkdetails: "(September 2021)"
 Journal: ""
 Year: ""
