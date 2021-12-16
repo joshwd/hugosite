@@ -10,7 +10,7 @@ Status: "WP"
 Statuscode: 2
 Statusdetails: "Submitted"
 Link: "Papers/sanitation_privatization_20211215.pdf"
-Linkdetails: "(September 2021)"
+Linkdetails: "(December 2021)"
 Journal: ""
 Year: ""
 ---
