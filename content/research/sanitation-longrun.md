@@ -5,7 +5,7 @@ Description: ""
 Tags: []
 Status: "WP"
 Statuscode: 2
-Statusdetails: "Submitted"
+#Statusdetails: "Submitted"
 Link: "Papers/Deutschmann_Subsidies_20211130.pdf"
 Linkdetails: "(November 2021)"
 Journal: ""
