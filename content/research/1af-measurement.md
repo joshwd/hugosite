@@ -7,7 +7,7 @@ Coauthors: ["Emilia Tjernström"]
 coauthorcodes: ["EmiliaTjernstrom"]
 Status: "WIP"
 Statuscode: 3
-Statusdetails: "Draft coming soon!"
+#Statusdetails: "Draft coming soon!"
 Link: ""
 Journal: ""
 Year: ""
