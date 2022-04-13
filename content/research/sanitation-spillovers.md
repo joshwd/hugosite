@@ -1,6 +1,6 @@
 ---
 title: "Spillovers without social interactions in urban sanitation"
-date: 2018-10-10T13:38:48-05:00
+date: 2022-04-13T13:38:48-05:00
 Description: ""
 Tags: []
 Coauthors: ["Molly Lipscomb","Laura Schechter","Siyao Jessica Zhu"]
