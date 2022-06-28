@@ -1,5 +1,5 @@
 ---
-title: "Asset financing and climate resilience in Kenya"
+title: "Credit for climate change: Promoting asset-collateralized loans for water tanks"
 date: 2022-06-28T12:47:07-05:00
 Description: ""
 Tags: []
