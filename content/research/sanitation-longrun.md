@@ -6,8 +6,8 @@ Tags: []
 Status: "WP"
 Statuscode: 2
 #Statusdetails: "Submitted"
-Link: "Papers/Deutschmann_Subsidies_20220322.pdf"
-Linkdetails: "(March 2022)"
+Link: "Papers/Deutschmann_Subsidies_20220723.pdf"
+Linkdetails: "(July 2022)"
 Journal: ""
 Year: ""
 ---
