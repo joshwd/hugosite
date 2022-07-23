@@ -12,4 +12,14 @@ Journal: ""
 Year: ""
 ---
 
-Subsidies are common in development policy to encourage adoption of new technologies. Evidence suggests subsidies may either increase or decrease longer-run adoption. I study the dynamics of technology adoption in response to subsidies in an urban sanitation context. The technology, a matching platform for sanitation services in Dakar, Senegal, was designed to connect households with service providers. I exploit spatial variation in exposure to short-term subsidies for septic pit desludgings through the platform. Using a neighborhood-level panel constructed from platform administrative data, I show that neighborhoods exposed to short-term subsidies continue using the platform at significantly higher levels, but this effect declines over time. Following a subsequent city-wide subsidy campaign, increased adoption re-emerges in previously-subsidized neighborhoods. I find evidence suggesting within-neighborhood spillovers are a mechanism for increased long-run adoption: new users make up a substantial fraction of the increased adoption over time in previously-subsidized neighborhoods.
+I study the dynamics of consumer choices in response to short-term subsidies. The
+technology, a matching platform for sanitation services in Dakar, Senegal, was designed
+to connect households with service providers. I exploit spatial variation in exposure to
+short-term subsidies which induced consumers to use the platform. Using a neighborhoodlevel
+panel constructed from platform administrative data, I show that households in
+neighborhoods exposed to short-term subsidies are significantly more likely to use the
+platform after the subsidies end, but this effect declines gradually to zero over time.
+Following a subsequent city-wide subsidy campaign, increased adoption re-emerges in
+previously-subsidized neighborhoods. I find evidence suggesting within-neighborhood
+spillovers are a mechanism for increased long-run adoption: new users make up a substantial
+fraction of the increased adoption over time in previously-subsidized neighborhoods.
