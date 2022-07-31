@@ -1,12 +1,12 @@
 ---
-title: "Subsidies and the sustainability of technology adoption: Evidence from the sanitation services market in Dakar"
+title: "Recognizing a good deal: short term subsidies and the dynamics of consumer choices"
 date: 2021-07-11T12:59:52-05:00
 Description: ""
 Tags: []
 Status: "WP"
 Statuscode: 2
 #Statusdetails: "Submitted"
-Link: "Papers/Deutschmann_Subsidies_20220723.pdf"
+Link: "Papers/Deutschmann_Subsidies_20220731.pdf"
 Linkdetails: "(July 2022)"
 Journal: ""
 Year: ""
