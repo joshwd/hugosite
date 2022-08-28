@@ -6,12 +6,12 @@ Description: ""
 Tags: []
 Coauthors: ["Jared Gars",Jean-François Houde","Molly Lipscomb","Laura Schechter"]
 coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"]
-Status: "WP"
-Statuscode: 2
+Status: "Published"
+Statuscode: 1
 Statusdetails: "Forthcoming, Journal of Development Economics"
 Link: "Papers/sanitation_privatization_20220816.pdf"
 Linkdetails: "(August 2022)"
-Journal: ""
+Journal: "Journal of Development Economics"
 Year: ""
 ---
 
