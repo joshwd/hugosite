@@ -8,7 +8,7 @@ Coauthors: ["Jared Gars",Jean-François Houde","Molly Lipscomb","Laura Schechter
 coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"]
 Status: "WP"
 Statuscode: 2
-Statusdetails: "Revised & Resubmitted, Journal of Development Economics"
+Statusdetails: "Forthcoming, Journal of Development Economics"
 Link: "Papers/sanitation_privatization_20220816.pdf"
 Linkdetails: "(August 2022)"
 Journal: ""
