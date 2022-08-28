@@ -20,7 +20,7 @@
 		<h4>Research</h4>
 		{{ range where .Pages "Section" "research" }}
 		{{ range .Pages.GroupByParam "Statuscode" }}
-		<br /><h5>{{ if eq .Key 0 }} Job Market Paper{{ else if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Published{{ end }}</h5>
+		<br /><h5>{{ if eq .Key 0 }} Job Market Paper{{ else if eq .Key 2}}Working Papers{{ else if eq .Key 3 }}Work in Progress{{ else }}Peer-Reviewed Publications{{ end }}</h5>
 		{{ range .Pages.ByDate.Reverse }}
 		<div>
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
