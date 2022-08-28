@@ -8,11 +8,11 @@ Coauthors: ["Jared Gars",Jean-François Houde","Molly Lipscomb","Laura Schechter
 coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"]
 Status: "Published"
 Statuscode: 1
-Statusdetails: "Forthcoming, Journal of Development Economics"
-Link: "Papers/sanitation_privatization_20220816.pdf"
+#Statusdetails: "Forthcoming, Journal of Development Economics"
+WPLink: "Papers/sanitation_privatization_20220816.pdf"
 Linkdetails: "(August 2022)"
 Journal: "Journal of Development Economics"
-Year: ""
+Year: "Forthcoming"
 ---
 
 Privatization of a public good (the management of sewage treatment centers in Dakar, Senegal)
