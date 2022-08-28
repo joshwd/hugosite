@@ -10,7 +10,7 @@ Status: "Published"
 Statuscode: 1
 #Statusdetails: "Forthcoming, Journal of Development Economics"
 WPLink: "Papers/sanitation_privatization_20220816.pdf"
-Linkdetails: "(August 2022)"
+WPLinkdetails: "(August 2022)"
 Journal: "Journal of Development Economics"
 Year: "Forthcoming"
 ---
