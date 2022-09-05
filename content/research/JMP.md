@@ -7,6 +7,7 @@ Coauthors: ["Tanguy Bernard","Ouambi Yameogo"]
 coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "WP"
 Statuscode: 2
+Statusdetails: "under review"
 Link: "/Papers/Deutschmann_Aflasafe_20220831.pdf"
 Linkdetails: "(August 2022)"
 Journal: ""
