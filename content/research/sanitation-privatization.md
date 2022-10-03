@@ -9,8 +9,8 @@ coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"
 Status: "Published"
 Statuscode: 1
 #Statusdetails: "Forthcoming, Journal of Development Economics"
-WPLink: "Papers/sanitation_privatization_20220816.pdf"
-WPLinkdetails: "(August 2022)"
+JournalLink: "https://doi.org/10.1016/j.jdeveco.2022.102971"
+Linkdetails: "(open access)"
 Journal: "Journal of Development Economics"
 Year: "Forthcoming"
 ---
