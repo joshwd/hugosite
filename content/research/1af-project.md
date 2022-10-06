@@ -1,5 +1,5 @@
 ---
-title: "Can smallholder extension transform African agriculture?"
+title: "Relaxing multiple agricultural productivity constraints at scale"
 date: 2018-07-24T16:18:56-05:00
 Description: ""
 Tags: [Development]
@@ -8,11 +8,15 @@ coauthorcodes: ["MayaDuru","KimSiegal","EmiliaTjernstrom"]
 Status: "WP"
 Statuscode: 2
 Filename: 
-Statusdetails: 
-Link: "https://www.nber.org/papers/w26054"
-Linkdetails: (NBER Working Paper No. 26054, July 2019, revised February 2021)
+Statusdetails: "under review"
+Link: "/Papers/1AF_Paper_20221006.pdf"
+Linkdetails: (NBER Working Paper No. 26054, July 2019, revised October 2022)
 ---
 
-Agricultural productivity in Sub-Saharan Africa lags far behind all other regions of the world. A long list of policy experiments has yielded more evidence on what fails than on what works. We analyze a randomized control trial of a rare scaled-up success story: One Acre Fund’s small farmer program. Much like anti-poverty "graduation" interventions, the program aims to relax multiple constraints to productivity simultaneously. We show that participation causes statistically and economically significant increases in output, yields, and profits. In our preferred specification, maize production increases by 24% and profits by 16%. We find little evidence of heterogeneous treatment effects on yields, but observe some attenuation of impacts on total output and profits at the top end of the distribution.
+No single constraint can explain the stagnant agricultural productivity growth in sub-Saharan Africa.
+    Most interventions that relax individual barriers to productivity have delivered disappointing results.
+    We evaluate an at-scale program that targets several productivity constraints with a bundled intervention, using a randomized controlled trial in western Kenya.
+    Program participation increases maize yields by 26%, total maize output by 24%, and profits by 17%.
+    While we cannot directly test whether the program's success is due to its bundled nature, we find patterns in the data that are consistent with this hypothesis.
 
 
