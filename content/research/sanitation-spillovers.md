@@ -7,21 +7,21 @@ Coauthors: ["Molly Lipscomb","Laura Schechter","Siyao Jessica Zhu"]
 coauthorcodes: ["MollyLipscomb","LauraSchechter","SiyaoJessicaZhu"]
 Status: "WP"
 Statuscode: 2
-Link: "Papers/WTP_paper_20210222.pdf"
-Linkdetails: "(February 2021)"
-Statusdetails: "Revise & Resubmit, American Economic Journal: Applied Economics"
+Link: "Papers/WTP_paper_20221012.pdf"
+Linkdetails: "(October 2022)"
+Statusdetails: "Revised & Resubmitted, American Economic Journal: Applied Economics"
 Journal: ""
 Year: ""
 ---
 
 We run a randomized controlled trial coupled with lab-in-the-field
 social network experiments in urban Dakar. Decision spillovers and
-health externalities play a large role in determining uptake of
+health externalities play a large role in determining uptake of the
 sanitation technology, with decision spillovers being largest among
 households that don't receive significant subsidies. There is no
-evidence that social mechanisms such as social pressure, learning
-from others, or reciprocity explain the spillovers. We do find
+evidence that the spillovers are explained by social forces in general, nor that they are explained by specific social mechanisms such as learning
+from others, social pressure, or reciprocity. We do find
 evidence of a fourth, non-social, mechanism impacting decisions:
-increasing returns to scale. As more neighbors adopt the sanitary
+increasing health benefits. As more neighbors adopt the sanitary
 technology, it becomes more worthwhile for other households to adopt
 as well.
