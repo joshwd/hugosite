@@ -7,7 +7,7 @@ Coauthors: ["Molly Lipscomb","Laura Schechter","Siyao Jessica Zhu"]
 coauthorcodes: ["MollyLipscomb","LauraSchechter","SiyaoJessicaZhu"]
 Status: "WP"
 Statuscode: 2
-Link: "Papers/WTP_paper_20221012.pdf"
+Link: "Papers/DecisionSpillovers_20221012.pdf"
 Linkdetails: "(October 2022)"
 Statusdetails: "Revised & Resubmitted, American Economic Journal: Applied Economics"
 Journal: ""
