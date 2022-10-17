@@ -12,7 +12,7 @@ Statuscode: 1
 JournalLink: "https://doi.org/10.1016/j.jdeveco.2022.102971"
 Linkdetails: "(open access)"
 Journal: "Journal of Development Economics"
-Year: "Forthcoming"
+Year: "2023"
 ---
 
 Privatization of a public good (the management of sewage treatment centers in Dakar, Senegal)
