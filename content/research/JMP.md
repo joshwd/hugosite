@@ -12,7 +12,7 @@ Link: "/Papers/Aflasafe_20220905.pdf"
 Linkdetails: "(September 2022)"
 Journal: ""
 Year: ""
-Postlink: 1
+Postlink: 0
 ---
 **Blog and podcast coverage** : [World Bank Development Impact Blog](https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality) &#8226;  [NOVAFRICA Development Economics Job Market Talks Podcast](https://novafrica.org/novafrica-development-economics-job-market-talks/)
 
