@@ -8,8 +8,8 @@ coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "WP"
 Statuscode: 2
 #Statusdetails: "under review"
-Link: "/Papers/Aflasafe_20220905.pdf"
-Linkdetails: "(September 2022)"
+Link: "/Papers/Aflasafe_20221115.pdf"
+Linkdetails: "(November 2022)"
 Journal: ""
 Year: ""
 Postlink: 0
