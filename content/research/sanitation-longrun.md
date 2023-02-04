@@ -1,19 +1,19 @@
 ---
-title: "Recognizing a good deal: short term subsidies and the dynamics of consumer choices"
+title: "Recognizing a good deal: short term subsidies and the dynamics of public service use"
 date: 2021-07-11T12:59:52-05:00
 Description: ""
 Tags: []
 Status: "WP"
 Statuscode: 2
-#Statusdetails: "Submitted"
-Link: "Papers/Deutschmann_Subsidies_20220731.pdf"
-Linkdetails: "(July 2022)"
+Statusdetails: "Submitted"
+Link: "Papers/Deutschmann_Subsidies_20230204.pdf"
+Linkdetails: "(February 2023)"
 Journal: ""
 Year: ""
 ---
 
-I study the dynamics of consumer choices in response to short-term subsidies. I exploit
-spatial variation in exposure to subsidies which induced consumers to use a matching
+I study the dynamics of household adoption of a public service in response to short-term subsidies. I exploit
+spatial variation in exposure to subsidies which induced consumers to use a publicly-provided matching
 platform for sanitation services in Dakar, Senegal. Using platform administrative data, I
 show that neighborhoods exposed to short-term subsidies are significantly more likely
 to use the platform after subsidies end, but this effect declines gradually to zero over
