@@ -9,7 +9,7 @@ Status: "WP"
 Statuscode: 2
 Link: "Papers/DecisionSpillovers_20221012.pdf"
 Linkdetails: "(October 2022)"
-Statusdetails: "Revised & Resubmitted, American Economic Journal: Applied Economics"
+Statusdetails: "Conditionally Accepted, American Economic Journal: Applied Economics"
 Journal: ""
 Year: ""
 ---
