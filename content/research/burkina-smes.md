@@ -12,7 +12,9 @@ Statuscode: 3
 #Linkdetails: "(January 2023)"
 Journal: ""
 Year: ""
-Postlink: 0
+#Postlink: 0
 ---
 [PEDL Research Note](https://pedl.cepr.org/publications/compounded-effects-covid-19-and-other-crises-smes-burkina-faso)
+
+Press coverage: [Le Faso](https://lefaso.net/spip.php?article119604) &#8226; [BF1 TV](https://www.youtube.com/live/cRu4RhvMm5E?feature=share)
 
