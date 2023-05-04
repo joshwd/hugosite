@@ -1,6 +1,6 @@
 ---
 title: "The compounded effects of COVID-19 and other crises on SMEs in Burkina Faso"
-date: 2023-05-04T08:06:36-05:00
+date: 2023-01-04T08:06:36-05:00
 Description: ""
 Tags: []
 Coauthors: ["Soumaïla Gansonré","Louise Guillouët","Aristide S. Ouédraogo"]
