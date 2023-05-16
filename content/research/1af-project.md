@@ -9,8 +9,8 @@ Status: "WP"
 Statuscode: 2
 Filename: 
 #Statusdetails: "under review"
-Link: "/Papers/1AF_Paper_20221006.pdf"
-Linkdetails: (October 2022, previous version NBER Working Paper No. 26054, July 2019)
+Link: "/Papers/1AF_Paper_20230515.pdf"
+Linkdetails: (May 2023, previous version NBER Working Paper No. 26054, July 2019)
 ---
 
 No single constraint can explain the stagnant agricultural productivity growth in sub-Saharan Africa.
