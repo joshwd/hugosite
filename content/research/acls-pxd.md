@@ -11,4 +11,4 @@ Link: ""
 Journal: ""
 Year: ""
 ---
-**Project summary:** [PxD blog](https://pedl.cepr.org/publications/compounded-effects-covid-19-and-other-crises-smes-burkina-faso)
+**Project summary:** [PxD blog](https://precisiondev.org/innovative-financing-to-bring-clean-water-to-drought-stricken-kenyan-dairy-farmers/)
