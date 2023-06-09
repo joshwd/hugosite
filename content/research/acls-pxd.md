@@ -11,3 +11,4 @@ Link: ""
 Journal: ""
 Year: ""
 ---
+**Project summary:** [PxD blog](https://pedl.cepr.org/publications/compounded-effects-covid-19-and-other-crises-smes-burkina-faso)
