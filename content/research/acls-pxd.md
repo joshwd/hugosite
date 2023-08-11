@@ -3,8 +3,8 @@ title: "Credit for climate change: Promoting asset-collateralized loans for wate
 date: 2022-06-28T12:47:07-05:00
 Description: ""
 Tags: []
-Coauthors: [Tomoko Harigaya, Michael Kremer]
-coauthorcodes: ["TomokoHarigaya","MichaelKremer"]
+Coauthors: [Kevin Carney, Tomoko Harigaya, Michael Kremer]
+coauthorcodes: ["KevinCarney","TomokoHarigaya","MichaelKremer"]
 Status: "WIP"
 Statuscode: 3
 Link: ""
