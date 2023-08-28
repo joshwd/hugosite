@@ -1,15 +1,15 @@
 ---
 title: "Spillovers without social interactions in urban sanitation"
-date: 2022-04-12T13:38:48-05:00
+date: 2023-08-27T13:38:48-05:00
 Description: ""
 Tags: []
 Coauthors: ["Molly Lipscomb","Laura Schechter","Siyao Jessica Zhu"]
 coauthorcodes: ["MollyLipscomb","LauraSchechter","SiyaoJessicaZhu"]
-Status: "WP"
-Statuscode: 2
+Status: "Published"
+Statuscode: 1
 Link: "Papers/DecisionSpillovers_20221012.pdf"
-Linkdetails: "(October 2022)"
-Statusdetails: "Conditionally Accepted, American Economic Journal: Applied Economics"
+Linkdetails: "(WP version: October 2022)"
+Statusdetails: "Accepted, American Economic Journal: Applied Economics"
 Journal: ""
 Year: ""
 ---
