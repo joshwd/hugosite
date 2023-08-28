@@ -8,9 +8,9 @@ coauthorcodes: ["MollyLipscomb","LauraSchechter","SiyaoJessicaZhu"]
 Status: "Published"
 Statuscode: 1
 WPLink: "Papers/DecisionSpillovers_20221012.pdf"
-Linkdetails: "(WP version: October 2022)"
-Statusdetails: "Accepted, American Economic Journal: Applied Economics"
-Journal: ""
+WPLinkdetails: "(WP version: October 2022)"
+#Statusdetails: "Accepted, American Economic Journal: Applied Economics"
+Journal: "American Economic Journal: Applied Economics"
 Year: "Forthcoming"
 ---
 
