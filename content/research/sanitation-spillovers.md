@@ -11,7 +11,7 @@ WPLink: "Papers/DecisionSpillovers_20221012.pdf"
 Linkdetails: "(WP version: October 2022)"
 Statusdetails: "Accepted, American Economic Journal: Applied Economics"
 Journal: ""
-Year: ""
+Year: "Forthcoming"
 ---
 
 We run a randomized controlled trial coupled with lab-in-the-field
