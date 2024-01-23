@@ -1,5 +1,5 @@
 ---
-title: "Sustainable spillovers: the health and environmental impacts of solar energy adoption"
+title: "Sustainable spillovers: the health and environmental impacts of switching from generators to solar energy"
 date: 2024-01-04T08:06:36-05:00
 Description: ""
 Tags: []
