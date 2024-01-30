@@ -1,5 +1,5 @@
 ---
-title: "Using market mechanisms to increase the take-up of improved sanitation"
+title: "Using market mechanisms to improve sanitation"
 date: 2018-07-25T12:59:52-05:00
 Description: ""
 Tags: []
