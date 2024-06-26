@@ -12,7 +12,7 @@ WPLinkdetails: "(WP version: October 2022)"
 JournalLink: "https://www.aeaweb.org/articles?id=10.1257/app.20220047&from=f"
 #Statusdetails: "Accepted, American Economic Journal: Applied Economics"
 Journal: "American Economic Journal: Applied Economics"
-Year: "Forthcoming"
+Year: "2024"
 ---
 
 We run a randomized controlled trial coupled with lab-in-the-field
