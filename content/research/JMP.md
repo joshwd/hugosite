@@ -1,5 +1,5 @@
 ---
-title: "Contracting and quality upgrading: evidence from an experiment in Senegal"
+title: "Flexible contracting and quality upgrading under market volatility: experimental evidence from Senegal"
 date: 2021-09-28T08:06:36-05:00
 Description: ""
 Tags: []
@@ -7,9 +7,9 @@ Coauthors: ["Tanguy Bernard","Ouambi Yameogo"]
 coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "WP"
 Statuscode: 2
-#Statusdetails: "under review"
-Link: "/Papers/Deutschmann_ContractingQuality_20230119.pdf"
-Linkdetails: "(January 2023)"
+Statusdetails: "under review"
+Link: "/Papers/Deutschmann_ContractingQuality_20240807.pdf"
+Linkdetails: "(August 2024)"
 Journal: ""
 Year: ""
 Postlink: 0
