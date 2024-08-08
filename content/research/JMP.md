@@ -7,7 +7,7 @@ Coauthors: ["Tanguy Bernard","Ouambi Yameogo"]
 coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "WP"
 Statuscode: 2
-Statusdetails: "under review"
+Statusdetails: "Submitted"
 Link: "/Papers/Deutschmann_ContractingQuality_20240807.pdf"
 Linkdetails: "(August 2024)"
 Journal: ""
