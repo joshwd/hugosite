@@ -14,7 +14,7 @@ Journal: ""
 Year: ""
 Postlink: 0
 ---
-**Blog and podcast coverage** : [World Bank Development Impact Blog](https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality) &#8226;  [NOVAFRICA Development Economics Job Market Talks Podcast](https://novafrica.org/novafrica-development-economics-job-market-talks/) \
+[World Bank Development Impact Blog](https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality) &#8226;  [NOVAFRICA Development Economics Job Market Talks Podcast](https://novafrica.org/novafrica-development-economics-job-market-talks/) \
 
 We conduct a randomized experiment with groundnut producers in Senegal to address barriers to managing food safety and complying with international quality standards. We offer a bundled contract combining credit, extension, and a price premium guarantee to encourage use of a new food safety technology.
 The contract is flexible regarding sales of output: while cooperatives offering the contract seek to aggregate members' output, farmers can seize higher price opportunities when they exist. 
