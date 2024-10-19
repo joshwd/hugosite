@@ -5,7 +5,7 @@ Description: ""
 Tags: []
 Status: "WP"
 Statuscode: 2
-Statusdetails: "Submitted"
+Statusdetails: "Revise and Resubmit, Journal of Environmental Economics and Management"
 Link: "Papers/Deutschmann_Subsidies_20240718.pdf"
 Linkdetails: "(July 2024)"
 Journal: ""
