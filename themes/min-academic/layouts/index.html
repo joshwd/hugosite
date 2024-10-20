@@ -26,6 +26,8 @@
 			<!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
 			{{ if eq .Params.Postlink 1 }}
 				<a href="{{.Permalink}}"><strong>{{ .Title }}</strong></a>
+			{{ else if eq .Params.Status "Policy" }}
+			<a href="{{ .Params.Link }}"><strong>{{ .Title }}</strong></a>
 			{{ else }}
 				<strong>{{ .Title }}</strong>
 			{{ end }}
