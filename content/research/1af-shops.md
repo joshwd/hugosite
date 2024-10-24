@@ -12,3 +12,4 @@ Link: ""
 Journal: ""
 Year: ""
 ---
+**Research summary:** [PEDL Research Note](https://pedl.cepr.org/publications/characterising-competition-market-agricultural-inputs-kenya)
