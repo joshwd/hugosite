@@ -5,12 +5,13 @@ Description: ""
 Tags: [Development]
 Coauthors: ["Maya Duru","Kim Siegal","Emilia Tjernström"]
 coauthorcodes: ["MayaDuru","KimSiegal","EmiliaTjernstrom"]
-Status: "WP"
-Statuscode: 2
+Status: "Published"
+Statuscode: 1
 Filename: 
-Statusdetails: "Revised and Resubmitted, Journal of Development Economics"
-Link: "/Papers/1AF_Paper_20240806.pdf"
-Linkdetails: (August 2024, previous version NBER Working Paper No. 26054, July 2019)
+WPLink: "/Papers/1AF_Paper_20240806.pdf"
+WPLinkdetails: "(WP version: August 2024)"
+Journal: "Journal of Development Economics"
+Year: "Forthcoming"
 ---
 
 No single constraint can explain the stagnant agricultural productivity growth in sub-Saharan Africa.
