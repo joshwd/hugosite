@@ -1,6 +1,6 @@
 ---
 title: "Recognizing a good deal: short term subsidies and the dynamics of public service use"
-date: 2021-07-11T12:59:52-05:00
+date: 2024-12-11T12:59:52-05:00
 Description: ""
 Tags: []
 Status: "WP"
