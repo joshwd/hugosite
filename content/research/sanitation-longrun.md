@@ -3,13 +3,13 @@ title: "Recognizing a good deal: short term subsidies and the dynamics of public
 date: 2024-12-11T12:59:52-05:00
 Description: ""
 Tags: []
-Status: "WP"
-Statuscode: 2
-Statusdetails: "Revised and Resubmitted, Journal of Environmental Economics and Management"
-Link: "Papers/Deutschmann_Subsidies_20241218.pdf"
-Linkdetails: "(December 2024)"
-Journal: ""
-Year: ""
+Status: "Published"
+Statuscode: 1
+#Statusdetails: "Revised and Resubmitted, Journal of Environmental Economics and Management"
+WPLink: "Papers/Deutschmann_Subsidies_20241218.pdf"
+WPLinkdetails: "(WP Version: December 2024)"
+Journal: "Journal of Environmental Economics and Management"
+Year: "Forthcoming"
 ---
 
 I study the dynamics of household adoption of a public service in response to short-term subsidies. I exploit
