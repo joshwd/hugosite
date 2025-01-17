@@ -8,10 +8,12 @@ coauthorcodes: ["MayaDuru","KimSiegal","EmiliaTjernstrom"]
 Status: "Published"
 Statuscode: 1
 Filename: 
-WPLink: "/Papers/1AF_Paper_20240806.pdf"
-WPLinkdetails: "(WP version: August 2024)"
+#WPLink: "/Papers/1AF_Paper_20240806.pdf"
+#WPLinkdetails: "(WP version: August 2024)"
+JournalLink: "https://www.sciencedirect.com/science/article/pii/S0304387824001585"
+Linkdetails: "(open access)"
 Journal: "Journal of Development Economics"
-Year: "Forthcoming"
+Year: "2025"
 ---
 
 No single constraint can explain the stagnant agricultural productivity growth in sub-Saharan Africa.
