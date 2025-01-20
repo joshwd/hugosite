@@ -14,6 +14,7 @@ Linkdetails: "(open access)"
 Journal: "Journal of Development Economics"
 Year: "2023"
 ---
+**Blog post**: [VoxDev](https://voxdev.org/topic/infrastructure-urbanisation/impact-privatising-management-sanitation-utility-evidence-senegal)
 
 Privatization of a public good (the management of sewage treatment centers in Dakar, Senegal)
 leads to an increase in the productivity of downstream sewage dumping companies and a decrease in
@@ -24,6 +25,4 @@ month. This is due to increased productivity of all trucks, not just those assoc
 managing the privatized treatment centers. Household-level survey data shows that downstream prices
 of legal sanitary dumping decreased by 5% following privatization, and DHS data shows that diarrhea
 rates among children under five decreased in Dakar relative to secondary cities in Senegal following
-privatization with no similar effect on respiratory illness as a placebo. \
-
-[VoxDev](https://voxdev.org/topic/infrastructure-urbanisation/impact-privatising-management-sanitation-utility-evidence-senegal)
+privatization with no similar effect on respiratory illness as a placebo.
