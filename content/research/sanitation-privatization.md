@@ -15,6 +15,8 @@ Journal: "Journal of Development Economics"
 Year: "2023"
 ---
 
+[VoxDev](https://voxdev.org/topic/infrastructure-urbanisation/impact-privatising-management-sanitation-utility-evidence-senegal) \
+
 Privatization of a public good (the management of sewage treatment centers in Dakar, Senegal)
 leads to an increase in the productivity of downstream sewage dumping companies and a decrease in
 downstream prices of the services they provide to households. We use the universe of legal dumping of
