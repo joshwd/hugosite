@@ -7,3 +7,5 @@ I'm interested broadly in development and environmental economics, industrial or
 I completed my PhD in Agricultural \& Applied Economics at the University of Wisconsin-Madison. 
 
 Click [here](https://jwdeutschmann.com/Deutschmann_CV.pdf) to download my full CV.
+
+[Google Scholar](https://scholar.google.com/citations?user=wV5d100AAAAJ&hl=en)
