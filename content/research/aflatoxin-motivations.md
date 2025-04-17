@@ -1,5 +1,5 @@
 ---
-title: "Health, pro-sociality, and market rewards in agricultural quality decisions"
+title: "Does others' health count for peanuts? Health, market returns, and pro-sociality"
 date: 2020-06-28T08:06:36-05:00
 Description: ""
 Tags: []
