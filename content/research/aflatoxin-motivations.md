@@ -7,7 +7,7 @@ Coauthors: ["Gashaw Abate", "Tanguy Bernard","Fatou Fall"]
 coauthorcodes: ["GashawAbate","TanguyBernard","FatouFall"]
 Status: "WP"
 Statuscode: 2
-Statusdetails: "draft available upon request"
+Statusdetails: "Under review"
 #Link: "/Papers/Deutschmann_Aflasafe_20220831.pdf"
 #Linkdetails: "(August 2022)"
 Journal: ""
