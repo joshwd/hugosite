@@ -8,8 +8,8 @@ coauthorcodes: ["GashawAbate","TanguyBernard","FatouFall"]
 Status: "WP"
 Statuscode: 2
 Statusdetails: "Under review"
-#Link: "/Papers/Deutschmann_Aflasafe_20220831.pdf"
-#Linkdetails: "(August 2022)"
+Link: "/Papers/ABDF_Senegal_20250417.pdf"
+Linkdetails: "(April 2025)"
 Journal: ""
 Year: ""
 Postlink: 0
