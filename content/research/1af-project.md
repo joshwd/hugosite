@@ -15,6 +15,7 @@ Linkdetails: "(open access)"
 Journal: "Journal of Development Economics"
 Year: "2025"
 ---
+**Blog post**: [VoxDev](https://voxdev.org/topic/agriculture/why-bundled-agricultural-programmes-may-succeed-where-others-fail)
 
 No single constraint can explain the stagnant agricultural productivity growth in sub-Saharan Africa.
     Most interventions that relax individual barriers to productivity have delivered disappointing results.
