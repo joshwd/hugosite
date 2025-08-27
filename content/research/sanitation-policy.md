@@ -1,11 +1,11 @@
 ---
-title: "Using market mechanisms to improve sanitation at scale"
-date: 2018-07-25T12:59:52-05:00
+title: "Using auctions to improve sanitation at scale"
+date: 2025-07-25T12:59:52-05:00
 Description: ""
 Tags: []
-Coauthors: ["Jared Gars","Shoshana Griffith","Jean-François Houde","Molly Lipscomb","Mbaye Mbeguere","Sarah Nehrling",
+Coauthors: ["Jared Gars","Jean-François Houde","Molly Lipscomb","Terence Johnson","Mbaye Mbeguere","Sarah Nehrling",
 	"Laura Schechter","Siyao Jessica Zhu"]
-coauthorcodes: ["JaredGars","ShoshanaGriffith","JeanFrancoisHoude","MollyLipscomb","MbayeMbeguere","SarahNehrling","LauraSchechter","SiyaoJessicaZhu"]
+coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","TerenceJohnson","MbayeMbeguere","SarahNehrling","LauraSchechter","SiyaoJessicaZhu"]
 Status: "WP"
 Statuscode: 2
 Statusdetails: "draft available upon request"
