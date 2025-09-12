@@ -1,13 +1,13 @@
 ---
-title: "Sustainable spillovers: the health and environmental impacts of switching from generators to solar energy"
-date: 2024-01-04T08:06:36-05:00
+title: "Green growth: can solar adoption in Lagos boost firm profits while reducing emissions?"
+date: 2025-09-04T08:06:36-05:00
 Description: ""
 Tags: []
-Coauthors: ["Lori Beaman","R Subramanian","Emilia Tjernström"]
-coauthorcodes: ["LoriBeaman","RSubramanian","EmiliaTjernstrom"]
+Coauthors: ["Lori Beaman","Emilia Tjernström","Lauriane Yehouenou"]
+coauthorcodes: ["LoriBeaman","EmiliaTjernstrom","LaurianeYehouenou"]
 Status: "WIP"
 Statuscode: 3
-Statusdetails: "Pilot in progress"
+Statusdetails: "Baseline in progress"
 #Link: "/Papers/Deutschmann_ContractingQuality_20230119.pdf"
 #Linkdetails: "(January 2023)"
 Journal: ""
