@@ -5,8 +5,8 @@ Description: ""
 Tags: []
 Coauthors: ["Soumaïla Gansonré","Louise Guillouët","Aristide S. Ouédraogo"]
 coauthorcodes: ["SoumailaGansonre","LouiseGuillouet","AristideOuedraogo"]
-Status: "WIP"
-Statuscode: 3
+Status: "RP"
+Statuscode: 4
 #Statusdetails: "under review"
 #Link: "/Papers/Deutschmann_ContractingQuality_20230119.pdf"
 #Linkdetails: "(January 2023)"
