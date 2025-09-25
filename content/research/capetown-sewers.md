@@ -8,5 +8,7 @@ coauthorcodes: ["MollyLipscomb"]
 Status: "WIP"
 Statuscode: 3
 #Statusdetails: "Forthcoming, Journal of Development Economics"
-
+Link: ""
+Journal: ""
+Year: ""
 ---
