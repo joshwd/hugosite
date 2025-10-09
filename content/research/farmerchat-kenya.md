@@ -1,6 +1,6 @@
 ---
 title: "Generative AI for agricultural advisory in Kenya"
-date: 2025-09-24T20:40:03Z
+date: 2025-10-08T20:40:03Z
 Description: ""
 Tags: []
 Coauthors: ["Gashaw Abate", "Sedi Boukaka"]
