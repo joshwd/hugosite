@@ -4,7 +4,7 @@ date: 2025-10-08T20:40:03Z
 Description: ""
 Tags: []
 Coauthors: ["Gashaw Abate","Tanguy Bernard","Sedi Boukaka","David Spielman"]
-coauthorcodes: ["GashawAbate","TanguyBernard","SediBoukaka","David Spielman"]
+coauthorcodes: ["GashawAbate","TanguyBernard","SediBoukaka","DavidSpielman"]
 Status: "WIP"
 Statuscode: 3
 #Statusdetails: "Draft coming soon!"
