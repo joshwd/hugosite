@@ -1,5 +1,5 @@
 ---
-title: "Generative AI for agricultural advisory in Kenya"
+title: "Leveraging the Transformational Potential of AI to Empower Small-Scale Farmers in Ethiopia"
 date: 2025-10-08T20:40:03Z
 Description: ""
 Tags: []
