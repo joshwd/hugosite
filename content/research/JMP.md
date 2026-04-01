@@ -10,7 +10,7 @@ Statuscode: 1
 #Statusdetails: "Revised & Resubmitted, Journal of Development Economics"
 JournalLink: "https://www.sciencedirect.com/science/article/pii/S0304387826000350"
 WPLink: "/Papers/DBY_ContractingQuality_20251126.pdf"
-WPLinkdetails: "(November 2025)"
+WPLinkdetails: "(WP version: November 2025)"
 Journal: "Journal of Development Economics"
 Year: "2026"
 Postlink: 0
