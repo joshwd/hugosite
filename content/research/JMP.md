@@ -8,10 +8,11 @@ coauthorcodes: ["TanguyBernard","OuambiYameogo"]
 Status: "Published"
 Statuscode: 1
 #Statusdetails: "Revised & Resubmitted, Journal of Development Economics"
+JournalLink: "https://www.sciencedirect.com/science/article/pii/S0304387826000350"
 WPLink: "/Papers/DBY_ContractingQuality_20251126.pdf"
 WPLinkdetails: "(November 2025)"
 Journal: "Journal of Development Economics"
-Year: "Forthcoming"
+Year: "2026"
 Postlink: 0
 ---
 [World Bank Development Impact Blog](https://blogs.worldbank.org/impactevaluations/cracking-open-new-markets-contract-helps-farmers-senegal-meet-export-quality) &#8226;  [NOVAFRICA Development Economics Job Market Talks Podcast](https://novafrica.org/novafrica-development-economics-job-market-talks/) \
