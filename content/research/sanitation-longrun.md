@@ -8,7 +8,7 @@ Statuscode: 1
 #Statusdetails: "Revised and Resubmitted, Journal of Environmental Economics and Management"
 JournalLink: "https://www.sciencedirect.com/science/article/pii/S0095069624001888?dgcid=author"
 WPLink: "Papers/Deutschmann_Subsidies_20241218.pdf"
-WPLinkdetails: "(WP Version: December 2024)"
+WPLinkdetails: "(WP version: December 2024)"
 Journal: "Journal of Environmental Economics and Management"
 Year: "2025"
 ---
