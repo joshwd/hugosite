@@ -14,3 +14,4 @@ Journal: ""
 Year: ""
 #Postlink: 0
 ---
+**Research summary:** [PEDL Research Note](https://grp.cepr.org/publications/pedl-research-note/why-arent-small-firms-buying-solar-evidence-field-experiment-lagos)
