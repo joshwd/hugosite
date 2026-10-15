@@ -9,7 +9,7 @@ PolicyCoauthors: "Murphy, K., Rudder, J., Cappucci, M., Cherian M., Elmera, C., 
 Status: "Policy"
 Statuscode: 5
 #Statusdetails: "Draft coming soon!"
-Link: "https://innovationcommission.uchicago.edu/wp-content/uploads/2024/09/Final-Report.pdf"
+Link: "https://www.ifad.org/en/w/publications/food-security-nutrition-and-climate-resilience-evidence-review"
 Journal: ""
 Year: "2024"
 ---
