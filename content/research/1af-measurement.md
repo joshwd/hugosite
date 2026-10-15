@@ -1,12 +1,12 @@
 ---
-title: "Measurement error, validation data, and program evaluation"
+title: "Treatment-differential measurement error: bias, correction, and power"
 date: 2020-03-27T20:40:03Z
 Description: ""
 Tags: []
 Coauthors: ["Emilia Tjernström"]
 coauthorcodes: ["EmiliaTjernstrom"]
-Status: "WIP"
-Statuscode: 4
+Status: "WP"
+Statuscode: 2
 #Statusdetails: "Draft coming soon!"
 Link: ""
 Journal: ""

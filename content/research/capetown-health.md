@@ -1,5 +1,5 @@
 ---
-title: "Does infrastructure mitigate the impact of extreme weather on health?"
+title: "Rainfall extremes, sanitation infrastructure, and diarrheal disease in Cape Town"
 date: 2025-09-25T12:59:52-05:00
 Description: ""
 Tags: []

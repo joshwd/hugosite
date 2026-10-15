@@ -1,10 +1,10 @@
 ---
-title: "Quality and competition in the market for agricultural inputs"
+title: "High-quality entry and incumbent product quality: experimental evidence from Kenya"
 date: 2020-03-27T20:40:03Z
 Description: ""
 Tags: []
-Coauthors: ["Felipe Parra Escobar", "Jeremy Foltz", "Tim Njagi", "Emilia Tjernström"]
-coauthorcodes: ["FelipeParraEscobar","JeremyFoltz","TimNjagi","EmiliaTjernstrom"]
+Coauthors: ["Jeremy Foltz", "Tim Njagi", "Felipe Parra Escobar", "Emilia Tjernström"]
+coauthorcodes: ["JeremyFoltz","TimNjagi","FelipeParraEscobar","EmiliaTjernstrom"]
 Status: "WIP"
 Statuscode: 3
 #Statusdetails: "Draft coming soon!"

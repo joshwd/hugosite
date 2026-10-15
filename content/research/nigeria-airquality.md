@@ -7,7 +7,7 @@ Coauthors: ["Lori Beaman","Emilia Tjernström","Lauriane Yehouenou"]
 coauthorcodes: ["LoriBeaman","EmiliaTjernstrom","LaurianeYehouenou"]
 Status: "WIP"
 Statuscode: 3
-Statusdetails: "Baseline in progress"
+Statusdetails: "Analysis in progress"
 #Link: "/Papers/Deutschmann_ContractingQuality_20230119.pdf"
 #Linkdetails: "(January 2023)"
 Journal: ""
