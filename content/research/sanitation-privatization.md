@@ -4,7 +4,7 @@ Evidence from the sanitation sector in Senegal"
 date: 2021-09-15T12:59:52-05:00
 Description: ""
 Tags: []
-Coauthors: ["Jared Gars",Jean-François Houde","Molly Lipscomb","Laura Schechter"]
+Coauthors: ["Jared Gars","Jean-François Houde","Molly Lipscomb","Laura Schechter"]
 coauthorcodes: ["JaredGars","JeanFrancoisHoude","MollyLipscomb","LauraSchechter"]
 Status: "Published"
 Statuscode: 1
